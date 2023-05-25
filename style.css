@@ -2,9 +2,9 @@ body {
     background-color: #1E4363;
   }
   .tt-design {
-    color: #ffffff; /* Skift farven til din ønskede farve */
-    font-size: 24px; /* Skift størrelsen til din ønskede størrelse */
-    text-align: left; /* Juster efter behov (left, right eller center) */
+    color: #ffffff; 
+    font-size: 24px; 
+    text-align: left; 
   }
 .menu {
     list-style-type: line;
@@ -70,7 +70,7 @@ body {
   }
   .bokserfaring {
     width: px;
-    height: 100px;
+    height: 80px;
     background-color: #FDF5E6;
     display: flex;
     justify-content: center;
@@ -107,7 +107,7 @@ body {
     
     
     .færdigheder img{
-    width: 200px;
+    width: 100px;
     height: auto;
     }
     
@@ -136,7 +136,7 @@ body {
     
     .boksværker {
       width: px;
-      height: 100px;
+      height: 80px;
       background-color: #FDF5E6;
       display: flex;
       justify-content: center;
@@ -169,7 +169,7 @@ body {
     
     .image-box img {
       max-width: 100%;
-      height: auto;
+      height: 35%;
     }
     
     @media screen and (max-width: 768px) {
@@ -183,3 +183,5 @@ body {
         flex-basis: 100%;
     }
   }
+
+  
