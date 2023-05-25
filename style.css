@@ -1,0 +1,185 @@
+body {
+    background-color: #1E4363;
+  }
+  .tt-design {
+    color: #ffffff; /* Skift farven til din ønskede farve */
+    font-size: 24px; /* Skift størrelsen til din ønskede størrelse */
+    text-align: left; /* Juster efter behov (left, right eller center) */
+  }
+.menu {
+    list-style-type: line;
+    margin: 0;
+    padding: 0;
+    background-color: #1E4363;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.menu li a.active {
+    background-color: FDF5E6;
+}
+.menu {
+    text-align: right;
+}
+
+.boks {
+    width: px;
+    height: 200px;
+    background-color: #FDF5E6;
+    background-image: url('Billederprojekt3/baggrund\ til\ hjemmeside.png');
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: left;
+    color: #FFFFFF;
+      font-family: "", montserrat; /* Skrifttypen "Arial" eller en anden ønsket skrifttype */
+    }
+  
+  
+  
+  .boks img {
+    max-width: 50%;
+    max-height: 100%;
+    border-radius: 50%;
+    margin-left: 100px; /* Juster denne værdi efter behov */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .boks {
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .boks img {
+      margin-left: 0;
+      margin-top: 10px; /* Juster denne værdi efter behov */
+    }
+  }
+  .bokserfaring {
+    width: px;
+    height: 100px;
+    background-color: #FDF5E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bokserfaring h2 {
+    color: #000000;
+    text-align: center;
+  }
+  .skills-sektion{
+    background-color: #FDF5E6;
+    }
+    
+    .skills-sektion h2{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+        
+        }
+    
+    .programmer-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    background-color: #1E4363;
+    
+    }
+    
+    
+    .færdigheder img{
+    width: 200px;
+    height: auto;
+    }
+    
+    .skills-sektion h2{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    }
+    .programmer-container {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .færdigheder {
+      flex-basis: 20%;
+      text-align: center;
+    }
+    
+    .færdigheder img {
+      max-width: 80%;
+      height: auto;
+    }
+    
+    .boksværker {
+      width: px;
+      height: 100px;
+      background-color: #FDF5E6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container {
+      display: flex;
+    }
+    
+    .image-box {
+      flex-basis: 20%;
+      text-align: center;
+      color: #FDF5E6;
+    }
+    
+    .image-box img {
+      max-width: 100%;
+      height: auto;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .image-box {
+      flex-basis: 20%;
+      text-align: center;
+      color: #FDF5E6;
+    }
+    
+    .image-box img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    @media screen and (max-width: 768px) {
+      .image-box {
+        flex-basis: 40%;
+      }
+    }
+    
+    @media screen and (max-width: 480px) {
+      .image-box {
+        flex-basis: 100%;
+    }
+  }
