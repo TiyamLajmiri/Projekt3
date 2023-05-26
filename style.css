@@ -183,6 +183,40 @@ body {
         flex-basis: 100%;
     }
   }
+  .ommig {
+    width: auto; /* Juster bredden efter dine behov */
+    height: auto; /* Juster højden efter dine behov */
+    border: 1px solid rgb(0, 0, 0); /* Border-stil */
+    padding: 50px; /* Tilføjer indvendig polstring */
+    color: #ffffff;
+  }
+  footer {
+    background-color: #f2f2f2;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .kontakt-info {
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  .kontakt-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .kontakt-info p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
 
+  
+  
+  
+  
+
+  
+  
 
   
