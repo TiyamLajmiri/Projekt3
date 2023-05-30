@@ -26,23 +26,30 @@ body {
 }
 
 .menu li a.active {
-    background-color: FDF5E6;
+    background-color: #FDF5E6
 }
 .menu {
     text-align: right;
 }
+.overskrift-container {
+  text-align: center;
+}
+
+.overskrift {
+  font-size: 24px;
+  font-weight: bold;
+  top: auto;
+}
 
 .boks {
-    width: px;
     height: 200px;
     background-color: #FDF5E6;
-    background-image: url('Billederprojekt3/baggrund\ til\ hjemmeside.png');
+    background-image: url('Billederprojekt3/baggrund\til\hjemmeside.png');
     background-size: cover;
     display: flex;
     justify-content: flex-end;
-    align-items: left;
     color: #FFFFFF;
-      font-family: "", montserrat; /* Skrifttypen "Arial" eller en anden ønsket skrifttype */
+      font-family: "", montserrat; 
     }
   
   
@@ -51,7 +58,7 @@ body {
     max-width: 50%;
     max-height: 100%;
     border-radius: 50%;
-    margin-left: 100px; /* Juster denne værdi efter behov */
+    margin-left: 100px; 
   }
   
   @media screen and (max-width: 768px) {
@@ -65,11 +72,10 @@ body {
   
     .boks img {
       margin-left: 0;
-      margin-top: 10px; /* Juster denne værdi efter behov */
+      margin-top: 10px;
     }
   }
   .bokserfaring {
-    width: px;
     height: 80px;
     background-color: #FDF5E6;
     display: flex;
@@ -96,7 +102,7 @@ body {
     
     .programmer-container{
     display: flex;
-    flex-direction: r0w;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -135,7 +141,6 @@ body {
     }
     
     .boksværker {
-      width: px;
       height: 80px;
       background-color: #FDF5E6;
       display: flex;
@@ -172,22 +177,17 @@ body {
       height: auto;
     }
     
-    @media screen and (max-width: x) {
-      .image-box {
-        flex-basis: 40%;
-      }
-    }
-    
+
     @media screen and (max-width: 480px) {
       .image-box {
         flex-basis: 100%;
     }
   }
   .ommig {
-    width: auto; /* Juster bredden efter dine behov */
-    height: auto; /* Juster højden efter dine behov */
-    border: 1px solid rgb(0, 0, 0); /* Border-stil */
-    padding: 50px; /* Tilføjer indvendig polstring */
+    width: auto; 
+    height: auto; 
+    border: 1px solid rgb(0, 0, 0); 
+    padding: 50px; 
     color: #ffffff;
   }
   footer {
